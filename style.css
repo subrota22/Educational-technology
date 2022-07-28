@@ -3,11 +3,10 @@ body{font-family: 'Poppins', sans-serif; background-color: azure;}
 
 /* carousel styles  */
 .carouselImage{height: 455px;}
-.carouselTitle{font-size:4rem;}
 /* success student styles */
 .SuccessStudent , .studentFeedback{transform: scale(0.9);}
 .start-feedback {color: gold;}
-.questionImage{height: 420px; width: 540px; border-radius: 20px;}
+.questionImage{height: 50%; width: 50%; border-radius: 20px;}
 /* icon styles */
 .prevIcon{margin-left: -38px; margin-top:-20%;}
-.nextIcon{margin-top:-20% ;}
+.nextIcon{margin-top:-20% ; margin-right: -40px;}
