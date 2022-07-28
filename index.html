@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <!------------------|----------- CSS link -----------|------------------>
+ <link rel="stylesheet" href="style.css"/>
+ <!------------------|----------- Font awesome CDN link -----------|------------------>
+<script src="https://kit.fontawesome.com/48706b2f58.js" crossorigin="anonymous"></script>
+ <!------------------|----------- Google font family CDN -----------|------------------>
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+ <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Edu+SA+Beginner&family=Finlandica:ital,wght@1,600&family=Gentium+Book+Plus:ital,wght@0,700;1,700&family=Open+Sans:ital,wght@0,300;1,400&family=Poppins:wght@300;500&family=Raleway:wght@200&family=Roboto&family=Roboto+Slab:wght@300&display=swap" rel="stylesheet"/>
+<!------------------|----------- Bootstrap CSS CDN link -----------|------------------>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+   
+<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Educational technology </title>
+  <link rel="shortcut icon" href="images/course/course-3.png" type="image/x-icon"/>
+</head>
+<body>
+    <!------------------|----------- Section start from here -----------|------------------>
+    <section>
+    <!------------------|----------- Header start from here -----------|------------------>
+        <header>
+  <!------------------|----------- Navbar start from here -----------|------------------>
+  <nav class="navbar navbar-expand-lg mb-4">
+    <div class="container-fluid">
+      <a class="navbar-brand dark fw-bolder fs-1" href="#">Educational Technology </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Courses</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Deals</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Success</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Register</a>
+          </li>
+    
+          <li class="nav-item dropdown">
+            <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <i class="fa-solid fa-square-chevron-down fa-2x text-info"></i>
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Home</a></li>
+              <li><a class="dropdown-item" href="#">Courses</a></li>
+              <li><a class="dropdown-item" href="#">Deals</a></li>
+              <li><a class="dropdown-item" href="#">Success</a></li>
+              <li><a class="dropdown-item" href="#">About</a></li>
+              <li><a class="dropdown-item" href="#">Register</a></li>
+              <li><hr class="dropdown-divider"></li>
+           <a class="dropdown-item btn btn-outline-primary" href="#" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Register</a>
+            </ul>
+        </li>
+        </ul>
+          <!------------------|----------- form and register button -----------|------------------>
+        <a class="btn  btn-outline-primary me-5" href="#" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Register</a>
+
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+    
+  <!------------------|----------- Navbar end  from here -----------|------------------>
+
+  <!------------------|----------- Register from start from here -----------|------------------>
+
+
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="staticBackdropLabel"> Register Form </h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+       <form action="https://formsubmit.co/itinfobd24@gmail.com" method="post" class="was-validated w-100">
+        <!-- name  -->
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input type="text" name="name" placeholder="Enter you name" class="form-control" required/>
+          <div class="invalid-feedback alert alert-danger">As soon as possiable enter your name </div>
+          <div class="valid-feedback alert alert-success">You name is processing...</div>
+        </div>
+                <!-- email  -->
+                <div class="form-group">
+                  <label for="email"> Email</label>
+                  <input type="email" name="email" placeholder="Enter you email" class="form-control" required/>
+                  <div class="invalid-feedback alert alert-danger">As soon as possiable enter your valid email </div>
+                  <div class="valid-feedback alert alert-success">You email is processing...</div>
+                </div>
+                        <!-- password  -->
+        <div class="form-group">
+          <label for="password"> Password </label>
+          <input type="password" name="password" placeholder="Enter you password" class="form-control" required/>
+          <div class="invalid-feedback alert alert-danger">As soon as possiable enter your password at least 10 charecter </div>
+          <div class="valid-feedback alert alert-success">You password is processing...</div>
+        </div>
+        
+                <!-- profile picture   -->
+                <div class="form-group">
+                  <label for="profile">Profile</label>
+                  <input type="file" name="profile" placeholder="Enter you name" class="form-control" required/>
+                  <div class="invalid-feedback alert alert-danger">As soon as possiable enter your profile picture </div>
+                  <div class="valid-feedback alert alert-success">You profile picture  is processing...</div>
+                </div>
+                <!-- profile picture   -->
+                <div class="form-group">
+                 <label for="gender">Gender</label>
+               <select name="gender" class="form-control" required>
+                <option disabled> Select your gender </option>
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+                <option value="Eunuch">Eunuch</option>
+                <option value="Other">Other</option>
+                <option value="Scure">Scure</option>
+               </select>
+                </div>
+                <br>
+                <div class="form-group text-center">
+                  <input type="reset"  class="btn btn-danger w-25"/>
+                  <input type="submit" name="submit"  class="btn btn-primary w-25"/>
+                </div>
+                <br>
+                <div class="form-group">
+                  <input type="checkbox" name="checkbox"  class="form-check-input" id="checked" required/>
+              <label for="checked" class="form-check-label">Agree to terms and <a href="" class="text-decoration-none">condition </a> </label>
+                </div>
+
+       </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+  <!------------------|----------- Register from end  from here -----------|------------------>
+
+    <!------------------|----------- Carousel start  from here -----------|------------------>
+<div class="container mt-5">
+  
+  <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+      
+        <img src="images/cover/cover-1.png" class="d-block w-100  carouselImage rounded" alt="Educational picture"/>
+        <div class="carousel-caption">
+          <h2 class="carouselTitle fw-bolder p-4 m-2">Get Started <br> Digital Learning</h2>
+          <p class="fs-6 text-center fw-bolds">It is a long established fact that a reader will be distracted by the readable <br> content of a page when looking at its layout.</p>
+          <button class="btn btn-primary px-5 fw-bolder">Get Started <span> <i class="fa-solid fa-arrow-right-long"></i></span></button>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="images/cover/cover-2.jpg" class="d-block w-100 carouselImage rounded" alt="Educational picture2"/>
+        <div class="carousel-caption">
+          <h2 class="carouselTitle fw-bolder p-4 m-2">Get Started <br> Digital Learning</h2>
+          <p class="fs-6 text-center fw-bold">It is a long established fact that a reader will be distracted by the readable <br> content of a page when looking at its layout.</p>
+          <button class="btn btn-primary px-5 fw-bolder">Get Started <span> <i class="fa-solid fa-arrow-right-long"></i></span></button>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="images/cover/cover-3.jpg" class="d-block w-100 carouselImage rounded" alt="Educational picture3"/>
+        <div class="carousel-caption">
+          <h2 class="carouselTitle fw-bolder p-4 m-2">Get Started <br> Digital Learning</h2>
+          <p class="fs-6 text-center fw-bold ">It is a long established fact that a reader will be distracted by the readable <br> content of a page when looking at its layout.</p>
+          <button class="btn btn-primary px-5 fw-bolder">Get Started <span> <i class="fa-solid fa-arrow-right-long"></i></span></button>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+   <span class="carousel-control-next-icon" aria-hidden="true"></span>
+
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+</div>
+<!------------------|----------- Carousel end  from here -----------|------------------>
+        </header>
+    <!------------------|----------- Header end from here -----------|------------------>
+
+    <!------------------|----------- Main start from here -----------|------------------>
+        <main>
+     <!------------------|----------- Discover popular courses start from here -----------|------------------>
+<div class="container mt-5 mb-5 text-center">
+  <h2 class="text-center fw-bolder fs-1">Discover Our Popular <br> Courses</h2>
+<div class="row d-flex">
+   <!------------------|------------- First course -----------|------------------>
+  <div class="col-12 col-sm-12 col-md-12 col-lg-6 p-4">
+  <div class="d-flex flex-column flex-sm-column flex-md-row  border">
+ <img src="images/course/course-1.png" alt="course" class="img-fluid">
+<div class="col text-center p-1">
+  <h2 class="text-dark fs-2"> Fundamental Of UI/UX Design</h2>
+  <p class="ps-5">Some quick example text to build on the card title and make up the bulk of the card. </p>
+  <p class="fs-4 text-info fw-bold">Price : 20$</p>
+</div>
+  
+  </div>
+  </div>
+
+    <!------------------|------------- Second course -----------|------------------>
+    <div class="col-12 col-sm-12 col-md-12 col-lg-6 p-4">
+
+      <div class="d-flex flex-column flex-sm-column flex-md-row  border">
+     <img src="images/course/course-2.png" alt="course" class="img-fluid">
+    <div class="col text-center p-1">
+      <h2 class="text-dark fs-2"> Javascript Basic to advanced </h2>
+      <p class="ps-5"> To bulid like some app as lik  calculator and manimuplate dom , ecma script . </p>
+      <p class="fs-4 text-info fw-bold">Price : 22$</p>
+    </div>
+      </div>
+
+      </div>
+
+        <!------------------|------------- Third course -----------|------------------>
+    <div class="col-12 col-sm-12 col-md-12 col-lg-6 p-4">
+
+      <div class="d-flex flex-column flex-sm-column flex-md-row  border">
+     <img src="images/course/course-3.png" alt="course" class="img-fluid">
+    <div class="col text-center p-1">
+      <h2 class="text-dark fs-2"> Fullstack Web Development </h2>
+      <p class="ps-5"> We teach that how to work with an ecommerce site like Bank and Product website . </p>
+      <p class="fs-4 text-info fw-bold">Price : 25$</p>
+    </div>
+      </div>
+
+      </div>
+
+        <!------------------|------------- Forth course -----------|------------------>
+    <div class="col-12 col-sm-12 col-md-12 col-lg-6 p-4">
+
+      <div class="d-flex flex-column flex-sm-column flex-md-row  border">
+     <img src="images/course/course-4.png" alt="course" class="img-fluid">
+    <div class="col text-center p-1">
+      <h2 class="text-dark fs-2"> Digital Marketing <br> (Affiliate)</h2>
+      <p class="ps-5"> We have some benifiet about the digital marketing cause our guide is solid  . </p>
+      <p class="fs-4 text-info fw-bold">Price : 16$</p>
+    </div>
+      </div>
+
+      </div>
+
+        <!------------------|------------- Fifth course -----------|------------------>
+    <div class="col-12 col-sm-12 col-md-12 col-lg-6 p-4">
+
+      <div class="d-flex flex-column flex-sm-column flex-md-row  border">
+     <img src="images/course/course-5.png" alt="course" class="img-fluid">
+    <div class="col text-center p-1">
+      <h2 class="text-dark fs-2"> Photography Basic <br> Rules </h2>
+      <p class="ps-5"> Photography basic rules like how to take a nice photo in any function like marrige function . </p>
+      <p class="fs-4 text-info fw-bold">Price :18$</p>
+    </div>
+      </div>
+
+      </div>
+
+        <!------------------|------------- Sixth course -----------|------------------>
+    <div class="col-12 col-sm-12 col-md-12 col-lg-6 p-4">
+
+      <div class="d-flex flex-column flex-sm-column flex-md-row  border">
+     <img src="images/course/course-6.png" alt="course" class="img-fluid">
+    <div class="col text-center p-1">
+      <h2 class="text-dark fs-2"> Motion Graphics <br> (Design) </h2>
+      <p class="ps-5"> First we are focus on simple design like logo than we are move out in big project . </p>
+      <p class="fs-4 text-info fw-bold">Price : 19$</p>
+    </div>
+      </div>
+
+      </div>
+
+</div>
+<button class="btn btn-primary mx-auto py-3 fs-5 fw-bold my-3">Seee More courses  <i class="fa-solid fa-arrow-right-long"></i> </button>
+</div>
+
+     <!------------------|----------- Discover popular courses end from here -----------|------------------>
+
+  <!------------------|----------- Explore The elearning Institute start from here -----------|------------------>
+<div class="container mb-5 mt-5">
+  <div class="row">
+    <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+      <img src="images/working.png" alt="working picture" class="img-fluid rounded"/>
+    </div>
+    <div class="col-12 col-sm-12 col-md-6 col-lg-6 text-center mt-5">
+      <h2 class="text-dark fs-1">Explore The elearning Institute</h2>
+      <p class="dark fs-5">
+        There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure.
+
+Anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined. Larn the all shrotcut from us 
+<a href="" class="text-decoration-none">See More .......</a>
+      </p>
+<div class="d-flex flex-row">
+  <div class="col">
+  <h2 class="text-dark fs-1 fw-bolder p text-dark fs-5 fw-bold">3.2K+</h2>
+  <p>  Online Course</p>
+ </div>
+  <div class="col  ">
+    <h2 class="text-dark fs-1 fw-bolder p text-dark fs-5 fw-bold">780+</h2>
+  <p>  Expert member  </p>
+  </div>
+  <div class="col">
+    <h2 class="text-dark fs-1 fw-bolder p text-dark fs-5 fw-bold">1K+</h2>
+<p class="fs-5 text-dark">Rating & Review</p>
+</div>
+
+  </div>
+  <button class="btn btn-primary   py-2 px-3 fs-5 fw-bold mt-5"> Read More <span> <i class="fa-solid fa-arrow-right-long"></i></span> </button>
+</div>
+    </div>
+  </div>
+
+   <!------------------|----------- Explore The elearning Institute end from here -----------|------------------>
+
+   <!------------------|----------- Ready to join start from here -----------|------------------>
+<div class="container mb-5 mt-5">
+  <div class="row bg-info py-5 text-center rounded">
+    <div class="col-12 col-sm-12 col-md-6 col-md-6">
+      <h2 class="fs-1 fw-bolder text-white">Ready to join? </h2>
+      <p class="text-white fs-5" > It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+    </div>
+    <div class="col-12 col-sm-12 col-md-6 col-md-6">
+    <button class="btn bg-white text-info px-3 py-2 mt-5" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Register Now <i class="fa-solid fa-arrow-right-long"></i> </button>
+    </div>
+  </div>
+</div>
+
+   <!------------------|----------- Ready to join  end from here -----------|------------------>
+   <!------------------|-----------  Meet Our Successfull Students start from here -----------|------------------>
+<div class="container text-center mt-5 mb-5 ">
+  <h2 class="text-dark fs-1">Meet Our Successfull Students </h2>
+  <p class="text-dark fs-5">It is a long established fact that a reader will be <br> distracted by the readable content of a page when looking at its layout.</p>
+  <div class="row d-flex justify-content-evently">
+    <div class="col-12 col-sm-12 col-md-6 col-lg-3 shadow-lg SuccessStudent">
+      <img src="images/student/student-1.png" alt="student image" class="img-fluid rounded pt-3"/>
+      <h2 class="text-dark fs-2">Awlad Hossain</h2>
+      <p class="text-dark fs-5"> UI/UX Designer </p>
+    </div>
+    <div class="col-12 col-sm-12 col-md-6 col-lg-3 shadow-lg SuccessStudent">
+      <img src="images/student/student-2.png" alt="student image" class="img-fluid rounded pt-3"/>
+      <h2 class="text-dark fs-2">Jannatul Islam</h2>
+      <p class="text-dark fs-5"> Motion Design </p>
+    </div>
+    <div class="col-12 col-sm-12 col-md-6 col-lg-3 shadow-lg SuccessStudent" >
+      <img src="images/student/student-3.png" alt="student image" class="img-fluid rounded pt-3"/>
+      <h2 class="text-dark fs-2"> Imran Hossain </h2>
+      <p class="text-dark fs-5"> Graphic Designer </p>
+    </div>
+    <div class="col-12 col-sm-12 col-md-6 col-lg-3 shadow-lg SuccessStudent">
+    <img src="images/student/student-4.png" alt="student image" class="img-fluid rounded pt-3"/>
+    <h2 class="text-dark fs-2"> Nishi Akter </h2>
+    <p class="text-dark fs-5">Web Developer </p>
+    </div>
+  </div>
+  <button class="btn btn-primary  px-3 py-2 mt-5"> View All <i class="fa-solid fa-arrow-right-long"></i> </button>
+
+  </div>
+
+    <!------------------|-----------  Meet Our Successfull Students end from here -----------|------------------>
+
+       <!------------------|-----------     Some Students Feedback start from here -----------|------------------>
+<div class="container">
+
+<article>
+  <div class="col mb-4">
+    <h2 class="fs-1 fw-bolder text-dark text-center">Some Students Feedback</h2>
+    <p class="fs-5 fw-bold text-dark text-center mb-3">It is a long established fact that a reader will be distracted by the <br> readable content of a page when looking at its layout.</p>
+  </div>
+</article>
+
+  <div class="row p-4">
+
+      <!------------------|-----------   first student feedback  -----------|------------------>
+<div class="col-12 col-sm-12 col-md-12 col-lg-6 border py-3 text-center mb-4 studentFeedback">
+  <div class="row mb-5">
+    <div class="col-md-4 mt-4">
+      <img src="images/comma.png" alt="comma" class="img-fluid"/>
+    </div>
+    <div class="col-md-6">
+  <span>
+    <i class="fa-solid fa-star start-feedback  "></i>
+    <i class="fa-solid fa-star start-feedback "></i>
+    <i class="fa-solid fa-star start-feedback "></i>
+    <i class="fa-solid fa-star start-feedback "></i>
+    <i class="fa-solid fa-star-half-stroke start-feedback "></i>
+  </span>
+  <span class="text-dark fs-6 fw-bold">4.8</span>
+    </div>
+  </div>
+  <article>
+    <div class="text-dark fs-5 mb-4">
+      There are many variations of passages of Lorem Ipsum available,  
+      but the majority have suffered alteration in some form, by injected humour , 
+       or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem.
+    </div>
+  </article>
+  <div class="d-flex flex-row">
+    <div class="col-1 mt-4">
+      <img src="images/student/student-5.png" alt="student image" class="img-fluid rounded"/>
+    </div>
+    <div class="col-8">
+      <h2>Awlad Hossain</h2>
+      <p class="text-dark fs-2"> UI Designer </p>
+    </div>
+  </div>
+  </div>
+
+
+  <!------------------|-----------    second student feedback  -----------|------------------>
+<div class="col-12 col-sm-12 col-md-12 col-lg-6 border py-3 text-center mb-4 studentFeedback">
+<div class="row mb-5">
+  <div class="col-md-6">
+    <img src="images/comma.png" alt="comma" class="img-fluid"/>
+  </div>
+  <div class="col-md-6">
+<span>
+  <i class="fa-solid fa-star start-feedback  "></i>
+  <i class="fa-solid fa-star start-feedback "></i>
+  <i class="fa-solid fa-star start-feedback "></i>
+  <i class="fa-solid fa-star start-feedback "></i>
+  <i class="fa-solid fa-star-half-stroke start-feedback "></i>
+</span>
+<span class="text-dark fs-6 fw-bold">4.8</span>
+  </div>
+</div>
+<article>
+  <div class="text-dark fs-5 mb-4">
+    There are many variations of passages of Lorem Ipsum available,  
+    but the majority have suffered alteration in some form, by injected humour , 
+     or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem.
+  </div>
+</article>
+<div class="d-flex flex-row">
+  <div class="col-4 mt-4">
+    <img src="images/student/student-6.png" alt="student image" class="img-fluid rounded"/>
+  </div>
+  <div class="col-8">
+    <h2>Shanta Akter </h2>
+    <p class="text-dark fs-2"> Graphics Designer </p>
+  </div>
+</div>
+</div>
+
+  </div>
+</div>
+
+  <!------------------|-----------      Some Students Feedback end from here -----------|------------------>
+
+    <!------------------|-----------       Frequently Asked Questions start from here -----------|------------------>
+ <div class="container mt-5 mb-5 text-center">
+  <h2 class="text-dark fs-1 fw-bolder"> Frequently Asked Questions</h2>
+  <p class="text-dark fw-bold px-2 py-3"> 
+  We are ofently face this type of question so now we are gonna solve that question . <br>
+    We hope that we can easily understand you .   
+  </p>
+  <div class="row">
+    <div class="accordion" id="accordionPanelsStayOpenExample">
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+          What is different between flex and grid ?
+          </button>
+        </h2>
+        <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+          <div class="accordion-body">
+        <p class="text-dark fs-5 fw-bold">
+          Grid and flexbox. The basic difference between CSS Grid Layout and CSS Flexbox Layout <br> is that flexbox was designed for layout in one dimension - either a row or a column. Grid was designed for two-dimensional layout - rows, and columns at the same time.
+        </p>
+              
+        <img src="https://qph.cf2.quoracdn.net/main-qimg-42496adfad1480ce68d8e9d71ffa575d-lq" alt="flex box and grid"  class="questionImage"/>
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+           What is different between Bootstrap and Tailwind ? 
+          </button>
+        </h2>
+        <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+          <div class="accordion-body">
+            <p class="text-dark fs-5 fw-bold">
+            The main difference between TailwindCSS and Bootstrap is that Tailwind CSS <br> is not a UI kit. Unlike UI kits such as Bootstrap, Bulma, and Foundation, Tailwind CSS doesn't have a default theme or built-in UI components. Instead, it comes with predesigned widgets you can use to build your site from scratch.
+       </p>
+           
+       <img src="https://www.loginradius.com/blog/static/53e88d5c504fe9fe3dc546ca8b0da336/7b67d/tailwind-css-vs-bootstrap-comparison.png" alt="bootstrap and tailwind difference"  class="questionImage"/>
+
+
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+          What is semantic Tag ?
+          </button>
+        </h2>
+        <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+          <div class="accordion-body">
+            <p class="text-dark fs-5 fw-bold">
+            The HTML semantics refers to the tags that provide meaning to an HTML page <br>
+             rather than just presentation. It makes HTML more comprehensible by better defining the different sections and layout of web pages.
+            </p>
+      
+            <img src="https://tipsmake.com/data/images/semantic-element-in-html5-picture-7-UxuUYhWYo.jpg" alt="semantic tag"  class="questionImage"/>
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="panelsStayOpen-headingFour">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false" aria-controls="panelsStayOpen-collapseFour">
+        What is box model ?
+          </button>
+        </h2>
+        <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingFour">
+          <div class="accordion-body">
+            <p class="text-dark fs-5 fw-bold">
+            The CSS box model is essentially a box that wraps around every HTML element. <br>
+             It consists of: margins, borders, padding, and the actual content
+           </p>
+           <img src="https://study.com/cimages/multimages/16/boxmodel.jpg" alt="box model"  class="questionImage"/>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+ </div>
+    <!------------------|-----------      Frequently Asked Questions end from here -----------|------------------>
+
+   <!------------------|-----------   Trusted by some companies start from here -----------|------------------>
+<div class="container d-none d-sm-none d-md-none d-lg-block">
+  <div class="row">
+    <h2 class="text-center text-dark fs-1 fw-bolder mb-5">   Trusted by over 800+ companies  </h2>
+    <div class="d-flex flex-row justify-content-around mt-5 mb-5">
+      <img src="images/company/company-1.png" alt="company image" class="img-fluid"/>
+      <img src="images/company/company-2.png" alt="company image" class="img-fluid"/>
+      <img src="images/company/company-3.png" alt="company image" class="img-fluid"/>
+      <img src="images/company/company-4.png" alt="company image" class="img-fluid"/>
+      <img src="images/company/company-5.png" alt="company image" class="img-fluid"/>
+      <img src="images/company/company-6.png" alt="company image" class="img-fluid"/>
+    </div>
+  </div>
+</div>
+
+    <!------------------|-----------   Trusted by some companies end from here -----------|------------------>
+        </main>
+    <!------------------|----------- Main end from here -----------|------------------>
+
+ <!------------------|----------- Footer start from here -----------|------------------>
+        <footer>
+<div class="footer bg-dark text-white py-5 w-100 mt-5 text-center">
+  <h2 class="fs-1 fw-bolder mb-3">Professional education</h2>
+  <address> 
+<p class="fs-4">
+Rajshahi , Joypurhat , Subdistrict , Road 08
+</p>
+</address>
+<p class="fs-4 mb-4"> Privacy Ploicy  |   Terms of use</p>
+<span class="fs-2 fw-bold text-white">
+  <a href="https://www.facebook.com/subrota112/" target="_blank" class="text-decoration-none text-white"> <i class="fa-brands fa-facebook "></i>  </a>
+  <a href="https://twitter.com/Subrota66881404" target="_blank" class="text-decoration-none text-white">  <i class="fa-brands fa-square-twitter ms-4 "></i> </a>
+  <a href="https://github.com/subrota22" target="_blank" class="text-decoration-none text-white">  <i class="fa-brands fa-github ms-4"></i></a>
+  <a href="https://www.instagram.com/fashionbyproduct21/" target="_blank" class="text-decoration-none text-white">  <i class="fa-brands fa-square-instagram ms-4"></i></a>
+  <a href="https://join.skype.com/invite/vOLCs8dlZVus" target="_blank" class="text-decoration-none text-white">   <i class="fa-brands fa-skype ms-4"></i>  </a>
+</span>
+</div>
+        </footer>
+  <!------------------|----------- Footer from here -----------|------------------>
+    </section>   
+ <!------------------|----------- Section end from here -----------|------------------>
+
+  <!------------------|----------- Bootstrap CDN JavaScript Bundle with Popper -----------|------------------>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+</body>
+</html>

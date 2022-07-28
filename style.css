@@ -1,0 +1,10 @@
+
+body{font-family: 'Poppins', sans-serif; background-color: azure;}
+
+/* carousel styles  */
+.carouselImage{height: 455px;}
+.carouselTitle{font-size:4rem;}
+/* success student styles */
+.SuccessStudent , .studentFeedback{transform: scale(0.9);}
+.start-feedback {color: gold;}
+.questionImage{height: 420px; width: 540px; border-radius: 20px;}
